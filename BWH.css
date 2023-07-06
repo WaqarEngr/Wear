@@ -1,0 +1,146 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section.hero {
+  background-image: url('hero.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px;
+  text-align: center;
+}
+
+section.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+section.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+section.hero .btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+section.hero .btn:hover {
+  background-color: #555;
+}
+
+section.products {
+  background-color: #fff;
+  padding: 50px;
+}
+
+section.products h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.product-card {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+section.services {
+  background-color: #f0f0f0;
+  padding: 50px;
+}
+
+section.services h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.service-card {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.service-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.service-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
